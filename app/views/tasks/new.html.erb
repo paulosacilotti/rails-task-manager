@@ -1,0 +1,6 @@
+<%= form_for @task do |f| %>
+  <%= f.string_field :title %>
+  <%= f.text_field :details %>
+  <%= f.boolean_field :completed %>
+  <%= f.submit %>
+<% end %>
